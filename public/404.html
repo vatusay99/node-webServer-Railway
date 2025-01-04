@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>No Fount</title>
+
+	<style>
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			color: azure;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		}
+		hr{
+			margin-bottom: 1rem;
+		}
+		
+		.container{
+			display: flex;
+			/* flex-direction: column; */
+			justify-content: center;
+			align-items: center;
+			max-width: 100vw;
+			height: 100vh; 
+		}
+		
+		.main{
+			background-color:aqua;
+			border: 1px red solid;
+			padding: 2rem;
+
+			border-radius: 5px;
+		}
+
+		.main>ul>li{
+			margin: 1rem;
+			color: rgba(222, 25, 233, .5);
+		}
+
+		.main>ul>li>a{
+			color: rgba(222, 25, 233, .5);
+			transition: all .5s ease-in;
+		}
+
+		.main>ul>li>a:hover{
+			color: red;
+			text-decoration: none;
+			cursor: pointer;
+			font-size: 1.5rem;
+		}
+
+		.title{
+			text-align: center;
+			font-size: 2rem;
+			color: brown;
+			text-shadow: 5px 3px 4px rgba(222, 25, 233, .5);
+			margin: 2rem 0 2rem 0;
+		}
+	</style>
+</head>
+<body class="">
+	<div class="container">
+		<div class="main">
+			<h1 class="title"><strong>Error 404</strong> pagina no encontrada</h1>
+			<hr>
+	
+			<ul>
+				<li><a href="/">Ir a Inicio</a></li>
+			</ul>
+
+		</div>
+	</div>
+</body>
+</html>
